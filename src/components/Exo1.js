@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Animated, StyleSheet, Text, View, SafeAreaView } from 'react-native'
+import { Animated, StyleSheet, SafeAreaView } from 'react-native'
 
 export default function Exo1() {
     const [growAnimation] = useState(new Animated.Value(0))
@@ -14,11 +14,11 @@ export default function Exo1() {
 
     return (
         <SafeAreaView style={styles.container}>
-            <Animated.View style={[flexGrow(inversedGrowAnimation), styles.primary]}></Animated.View>
+            <Animated.View style={[flexGrow(inversedGrowAnimation), styles.secondary]}></Animated.View>
             <Animated.View style={[flexGrow(growAnimation), styles.secondary]}></Animated.View>
         </SafeAreaView>
     )
-} 
+}
 
 const flexGrow = (animation) => ({
     flexGrow: animation,
