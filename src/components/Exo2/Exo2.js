@@ -1,7 +1,6 @@
 import React from 'react'
-import { Button } from 'react-native'
 
-import { createAppContainer, withNavigation } from 'react-navigation'
+import { createAppContainer } from 'react-navigation'
 import { createStackNavigator } from 'react-navigation-stack'
 
 import Exo1a from '../Exo1/Exo1a'
@@ -10,7 +9,7 @@ import Exo1c from '../Exo1/Exo1c'
 
 import HomeScreen from './HomeScreen'
 import Exo1Screen from './Exo1Screen'
-import HomeButton from './HomeButton'
+import NavButton from './NavButton'
 
 // const headerRight = 
 const homeStack = createStackNavigator(
@@ -25,7 +24,7 @@ const homeStack = createStackNavigator(
         initialRouteName: 'Home',
         defaultNavigationOptions: {
             headerRight: (
-                <HomeButton />
+                <NavButton title="Home" route="Home" />
             )
         }
     }
