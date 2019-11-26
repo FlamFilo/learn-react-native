@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Animated, StyleSheet, SafeAreaView } from 'react-native'
 
-export default function Exo1() {
+export default function Exo1a() {
     const [growAnimation] = useState(new Animated.Value(0))
     const inversedGrowAnimation = Animated.subtract(1, growAnimation)
 
