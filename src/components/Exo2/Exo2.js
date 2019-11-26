@@ -25,7 +25,7 @@ const homeStack = createStackNavigator(
         initialRouteName: 'Home',
         defaultNavigationOptions: {
             headerRight: (
-                <HomeButton/>
+                <HomeButton />
             )
         }
     }

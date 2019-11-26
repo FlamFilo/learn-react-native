@@ -1,23 +1,32 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { Animated, StyleSheet, SafeAreaView } from 'react-native'
 
-export default function Exo1a() {
-    const [growAnimation] = useState(new Animated.Value(0))
-    const inversedGrowAnimation = Animated.subtract(1, growAnimation)
+export default class Exo1a extends React.Component {
+    constructor(props) {
+        super(props)
 
-    useEffect(
-        () => Animated.timing(growAnimation, {
-            toValue: .5,
+        let growAnimation = new Animated.Value(0)
+        let inversedGrowAnimation = Animated.subtract(1, growAnimation)
+
+        this.state = {
+            growAnimation,
+            inversedGrowAnimation,
+        }
+    }
+    componentDidMount() {
+        Animated.timing(this.state.growAnimation, {
+            toValue: 0.5,
             duration: 1000,
         }).start()
-    )
-
-    return (
-        <SafeAreaView style={styles.container}>
-            <Animated.View style={[flexGrow(inversedGrowAnimation), styles.secondary]}></Animated.View>
-            <Animated.View style={[flexGrow(growAnimation), styles.secondary]}></Animated.View>
-        </SafeAreaView>
-    )
+    }
+    render() {
+        return (
+            <SafeAreaView style={styles.container}>
+                <Animated.View style={[flexGrow(this.state.inversedGrowAnimation), styles.primary]}></Animated.View>
+                <Animated.View style={[flexGrow(this.state.growAnimation), styles.secondary]}></Animated.View>
+            </SafeAreaView>
+        )
+    }
 }
 
 const flexGrow = (animation) => ({
