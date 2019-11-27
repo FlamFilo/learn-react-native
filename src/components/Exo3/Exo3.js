@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { SafeAreaView, Button, Text, AsyncStorage } from 'react-native'
 import NetInfo from '@react-native-community/netinfo'
-// import AsyncStorage from '@react-native-community/async-storage'
 
 export const API_URL = 'https://opendata.paris.fr/api/records/1.0/search/?dataset=velib-emplacement-des-stations'
 
@@ -43,8 +42,7 @@ const Exo3 = () => {
             }
         )
     }
-
-    useEffect(updateData, [])
+    updateData()
     return (
         <SafeAreaView>
             <Button
