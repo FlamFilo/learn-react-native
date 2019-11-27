@@ -6,12 +6,12 @@ import { createStackNavigator } from 'react-navigation-stack'
 import Exo1a from '../Exo1/Exo1a'
 import Exo1b from '../Exo1/Exo1b'
 import Exo1c from '../Exo1/Exo1c'
+import Exo3 from '../Exo3/Exo3'
 
 import HomeScreen from './HomeScreen'
 import Exo1Screen from './Exo1Screen'
 import NavButton from './NavButton'
 
-// const headerRight = 
 const homeStack = createStackNavigator(
     {
         Home: { screen: HomeScreen },
@@ -19,6 +19,7 @@ const homeStack = createStackNavigator(
         Exo1a: { screen: Exo1a },
         Exo1b: { screen: Exo1b },
         Exo1c: { screen: Exo1c },
+        Exo3: { screen: Exo3 },
     },
     {
         initialRouteName: 'Home',

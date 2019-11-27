@@ -13,6 +13,10 @@ class HomeScreen extends React.Component {
                     title="Exo1"
                     onPress={() => navigate('Exo1')}
                 />
+                <Button
+                    title="Exo3"
+                    onPress={() => navigate('Exo3')}
+                />
             </View>
         )
     }
