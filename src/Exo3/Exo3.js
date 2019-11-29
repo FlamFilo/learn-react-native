@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { SafeAreaView, Button, Text, AsyncStorage } from 'react-native'
 import NetInfo from '@react-native-community/netinfo'
 
-export const API_URL = 'https://opendata.paris.fr/api/records/1.0/search/?dataset=velib-emplacement-des-stations'
+export const API_URL = 'https://opendata.paris.fr/api/records/1.0/search/?dataset=velib-disponibilite-en-temps-reel'
 
 export const getNetInfo = () => {
     const [status, setStatus] = useState({})

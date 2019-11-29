@@ -1,0 +1,391 @@
+{
+    "nhits": 1392,
+    "parameters": {
+        "dataset": "velib-disponibilite-en-temps-reel",
+        "timezone": "UTC",
+        "rows": 10,
+        "format": "json"
+    },
+    "records": [
+        {
+            "datasetid": "velib-disponibilite-en-temps-reel",
+            "recordid": "d3b2cbf2cd677a1ffa254014e6e47b3dd7598112",
+            "fields": {
+                "nbfreeedock": 33,
+                "station_state": "Operative",
+                "maxbikeoverflow": 0,
+                "creditcard": "no",
+                "station_type": "yes",
+                "overflowactivation": "no",
+                "station_code": "16107",
+                "overflow": "no",
+                "nbbikeoverflow": 0,
+                "duedate": "2018-07-15",
+                "densitylevel": "1",
+                "nbedock": 35,
+                "station": "{\"code\": \"16107\", \"name\": \"Benjamin Godard - Victor Hugo\", \"state\": \"Operative\", \"type\": \"yes\", \"dueDate\": 1531632033, \"gps\": {\"latitude\": 48.865983, \"longitude\": 2.275725}}",
+                "nbfreedock": 0,
+                "nbbike": 2,
+                "station_name": "Benjamin Godard - Victor Hugo",
+                "nbdock": 0,
+                "geo": [
+                    48.865983,
+                    2.275725
+                ],
+                "nbebike": 0,
+                "kioskstate": "yes",
+                "nbebikeoverflow": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.275725,
+                    48.865983
+                ]
+            },
+            "record_timestamp": "2019-11-29T14:09:01.226000+00:00"
+        },
+        {
+            "datasetid": "velib-disponibilite-en-temps-reel",
+            "recordid": "24910ff0cda3bb83c0baac881667bf451c3af605",
+            "fields": {
+                "nbfreeedock": 39,
+                "station_state": "Operative",
+                "maxbikeoverflow": 55,
+                "creditcard": "yes",
+                "station_type": "yes",
+                "overflowactivation": "no",
+                "station_code": "6015",
+                "overflow": "no",
+                "nbbikeoverflow": 0,
+                "duedate": "2018-04-05",
+                "densitylevel": "1",
+                "nbedock": 52,
+                "station": "{\"code\": \"6015\", \"name\": \"Andr\u00e9 Mazet - Saint-Andr\u00e9 des Arts\", \"state\": \"Operative\", \"type\": \"yes\", \"dueDate\": 1522965646, \"gps\": {\"latitude\": 48.85375581057431, \"longitude\": 2.3390958085656166}}",
+                "nbfreedock": 3,
+                "nbbike": 10,
+                "station_name": "Andr\u00e9 Mazet - Saint-Andr\u00e9 des Arts",
+                "nbdock": 3,
+                "geo": [
+                    48.85375581057431,
+                    2.3390958085656166
+                ],
+                "nbebike": 1,
+                "kioskstate": "yes",
+                "nbebikeoverflow": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3390958085656166,
+                    48.85375581057431
+                ]
+            },
+            "record_timestamp": "2019-11-29T14:09:01.226000+00:00"
+        },
+        {
+            "datasetid": "velib-disponibilite-en-temps-reel",
+            "recordid": "56890c3d3e0a25f5c96d17289b0ba816f6da12a8",
+            "fields": {
+                "nbfreeedock": 21,
+                "station_state": "Operative",
+                "maxbikeoverflow": 0,
+                "creditcard": "yes",
+                "station_type": "yes",
+                "overflowactivation": "no",
+                "station_code": "11037",
+                "overflow": "no",
+                "nbbikeoverflow": 1,
+                "duedate": "2019-05-11",
+                "densitylevel": "1",
+                "nbedock": 38,
+                "station": "{\"code\": \"11037\", \"name\": \"Faubourg Du Temple - Republique\", \"state\": \"Operative\", \"type\": \"yes\", \"dueDate\": 1557612000, \"gps\": {\"latitude\": 48.867872484748744, \"longitude\": 2.3648982158072323}}",
+                "nbfreedock": 0,
+                "nbbike": 7,
+                "station_name": "Faubourg Du Temple - Republique",
+                "nbdock": 0,
+                "geo": [
+                    48.867872484748744,
+                    2.3648982158072323
+                ],
+                "nbebike": 9,
+                "kioskstate": "yes",
+                "nbebikeoverflow": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3648982158072323,
+                    48.867872484748744
+                ]
+            },
+            "record_timestamp": "2019-11-29T14:09:01.226000+00:00"
+        },
+        {
+            "datasetid": "velib-disponibilite-en-temps-reel",
+            "recordid": "cc199a14bb643a08d50bd5293a50caf9e2589eb6",
+            "fields": {
+                "nbfreeedock": 18,
+                "station_state": "Operative",
+                "maxbikeoverflow": 21,
+                "creditcard": "yes",
+                "station_type": "yes",
+                "overflowactivation": "no",
+                "station_code": "9020",
+                "overflow": "no",
+                "nbbikeoverflow": 0,
+                "duedate": "2018-11-30",
+                "densitylevel": "1",
+                "nbedock": 21,
+                "station": "{\"code\": \"9020\", \"name\": \"Toudouze - Clauzel\", \"state\": \"Operative\", \"type\": \"yes\", \"dueDate\": 1543615140, \"gps\": {\"latitude\": 48.87929591733507, \"longitude\": 2.3373600840568547}}",
+                "nbfreedock": 0,
+                "nbbike": 0,
+                "station_name": "Toudouze - Clauzel",
+                "nbdock": 0,
+                "geo": [
+                    48.87929591733507,
+                    2.3373600840568547
+                ],
+                "nbebike": 3,
+                "kioskstate": "yes",
+                "nbebikeoverflow": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3373600840568547,
+                    48.87929591733507
+                ]
+            },
+            "record_timestamp": "2019-11-29T14:09:01.226000+00:00"
+        },
+        {
+            "datasetid": "velib-disponibilite-en-temps-reel",
+            "recordid": "49d36b1f2db175b480b76ac7e0c95534678d2568",
+            "fields": {
+                "nbfreeedock": 18,
+                "station_state": "Operative",
+                "maxbikeoverflow": 0,
+                "creditcard": "no",
+                "station_type": "yes",
+                "overflowactivation": "no",
+                "station_code": "11104",
+                "overflow": "no",
+                "nbbikeoverflow": 0,
+                "duedate": "2018-10-22",
+                "densitylevel": "1",
+                "nbedock": 20,
+                "station": "{\"code\": \"11104\", \"name\": \"Charonne - Robert et Sonia Delauney\", \"state\": \"Operative\", \"type\": \"yes\", \"dueDate\": 1540245629, \"gps\": {\"latitude\": 48.85590755596891, \"longitude\": 2.3925706744194035}}",
+                "nbfreedock": 0,
+                "nbbike": 1,
+                "station_name": "Charonne - Robert et Sonia Delauney",
+                "nbdock": 0,
+                "geo": [
+                    48.85590755596891,
+                    2.3925706744194035
+                ],
+                "nbebike": 1,
+                "kioskstate": "yes",
+                "nbebikeoverflow": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3925706744194035,
+                    48.85590755596891
+                ]
+            },
+            "record_timestamp": "2019-11-29T14:09:01.226000+00:00"
+        },
+        {
+            "datasetid": "velib-disponibilite-en-temps-reel",
+            "recordid": "5d6309610292936d5534f54fb5feb978f2864d5d",
+            "fields": {
+                "nbfreeedock": 24,
+                "station_state": "Operative",
+                "maxbikeoverflow": 30,
+                "creditcard": "no",
+                "station_type": "yes",
+                "overflowactivation": "no",
+                "station_code": "12109",
+                "overflow": "no",
+                "nbbikeoverflow": 0,
+                "duedate": "2019-03-28",
+                "densitylevel": "1",
+                "nbedock": 30,
+                "station": "{\"code\": \"12109\", \"name\": \"Mairie du 12\u00e8me\", \"state\": \"Operative\", \"type\": \"yes\", \"dueDate\": 1553814028, \"gps\": {\"latitude\": 48.84085531176338, \"longitude\": 2.3875549435615544}}",
+                "nbfreedock": 0,
+                "nbbike": 4,
+                "station_name": "Mairie du 12\u00e8me",
+                "nbdock": 0,
+                "geo": [
+                    48.84085531176338,
+                    2.3875549435615544
+                ],
+                "nbebike": 2,
+                "kioskstate": "yes",
+                "nbebikeoverflow": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3875549435615544,
+                    48.84085531176338
+                ]
+            },
+            "record_timestamp": "2019-11-29T14:09:01.226000+00:00"
+        },
+        {
+            "datasetid": "velib-disponibilite-en-temps-reel",
+            "recordid": "ed7cfe9926af9ac643d8bdb9981b4c49b4ac40fd",
+            "fields": {
+                "nbfreeedock": 37,
+                "station_state": "Operative",
+                "maxbikeoverflow": 0,
+                "creditcard": "yes",
+                "station_type": "yes",
+                "overflowactivation": "no",
+                "station_code": "7003",
+                "overflow": "no",
+                "nbbikeoverflow": 0,
+                "duedate": "2018-06-30",
+                "densitylevel": "1",
+                "nbedock": 60,
+                "station": "{\"code\": \"7003\", \"name\": \"Square Boucicaut\", \"state\": \"Operative\", \"type\": \"yes\", \"dueDate\": 1530350922, \"gps\": {\"latitude\": 48.851296433665276, \"longitude\": 2.325061820447445}}",
+                "nbfreedock": 0,
+                "nbbike": 10,
+                "station_name": "Square Boucicaut",
+                "nbdock": 0,
+                "geo": [
+                    48.851296433665276,
+                    2.325061820447445
+                ],
+                "nbebike": 13,
+                "kioskstate": "yes",
+                "nbebikeoverflow": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.325061820447445,
+                    48.851296433665276
+                ]
+            },
+            "record_timestamp": "2019-11-29T14:09:01.226000+00:00"
+        },
+        {
+            "datasetid": "velib-disponibilite-en-temps-reel",
+            "recordid": "bf802f7d88905b6292aad38ecfec9842502027e3",
+            "fields": {
+                "nbfreeedock": 1,
+                "station_state": "Operative",
+                "maxbikeoverflow": 45,
+                "creditcard": "yes",
+                "station_type": "yes",
+                "overflowactivation": "no",
+                "station_code": "5001",
+                "overflow": "no",
+                "nbbikeoverflow": 0,
+                "duedate": "2020-03-22",
+                "densitylevel": "1",
+                "nbedock": 1,
+                "station": "{\"code\": \"5001\", \"name\": \"Harpe - Saint-Germain\", \"state\": \"Operative\", \"type\": \"yes\", \"dueDate\": 1584914400, \"gps\": {\"latitude\": 48.85151881501689, \"longitude\": 2.343670316040516}}",
+                "nbfreedock": 29,
+                "nbbike": 4,
+                "station_name": "Harpe - Saint-Germain",
+                "nbdock": 44,
+                "geo": [
+                    48.85151881501689,
+                    2.343670316040516
+                ],
+                "nbebike": 3,
+                "kioskstate": "yes",
+                "nbebikeoverflow": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343670316040516,
+                    48.85151881501689
+                ]
+            },
+            "record_timestamp": "2019-11-29T14:09:01.226000+00:00"
+        },
+        {
+            "datasetid": "velib-disponibilite-en-temps-reel",
+            "recordid": "d08ceff45de2acd2b567e5ce5135b4a3069407db",
+            "fields": {
+                "nbfreeedock": 53,
+                "station_state": "Operative",
+                "maxbikeoverflow": 60,
+                "creditcard": "yes",
+                "station_type": "yes",
+                "overflowactivation": "no",
+                "station_code": "14014",
+                "overflow": "no",
+                "nbbikeoverflow": 0,
+                "duedate": "2019-04-28",
+                "densitylevel": "1",
+                "nbedock": 60,
+                "station": "{\"code\": \"14014\", \"name\": \"Jourdan - Stade Charl\u00e9ty\", \"state\": \"Operative\", \"type\": \"yes\", \"dueDate\": 1556488800, \"gps\": {\"latitude\": 48.81942833336948, \"longitude\": 2.343335375189781}}",
+                "nbfreedock": 0,
+                "nbbike": 4,
+                "station_name": "Jourdan - Stade Charl\u00e9ty",
+                "nbdock": 0,
+                "geo": [
+                    48.81942833336948,
+                    2.343335375189781
+                ],
+                "nbebike": 2,
+                "kioskstate": "yes",
+                "nbebikeoverflow": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.343335375189781,
+                    48.81942833336948
+                ]
+            },
+            "record_timestamp": "2019-11-29T14:09:01.226000+00:00"
+        },
+        {
+            "datasetid": "velib-disponibilite-en-temps-reel",
+            "recordid": "e720c2c3526cf6eb458899c06c1c8f3149a9438b",
+            "fields": {
+                "nbfreeedock": 0,
+                "station_state": "Operative",
+                "maxbikeoverflow": 41,
+                "creditcard": "yes",
+                "station_type": "no",
+                "overflowactivation": "no",
+                "station_code": "17026",
+                "overflow": "no",
+                "nbbikeoverflow": 0,
+                "duedate": "2018-02-28",
+                "densitylevel": "1",
+                "nbedock": 0,
+                "station": "{\"code\": \"17026\", \"name\": \"Jouffroy d'Abbans - Wagram\", \"state\": \"Operative\", \"type\": \"no\", \"dueDate\": 1519858800, \"gps\": {\"latitude\": 48.881973298351625, \"longitude\": 2.301132157444954}}",
+                "nbfreedock": 32,
+                "nbbike": 5,
+                "station_name": "Jouffroy d'Abbans - Wagram",
+                "nbdock": 40,
+                "geo": [
+                    48.881973298351625,
+                    2.301132157444954
+                ],
+                "nbebike": 2,
+                "kioskstate": "yes",
+                "nbebikeoverflow": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.301132157444954,
+                    48.881973298351625
+                ]
+            },
+            "record_timestamp": "2019-11-29T14:09:01.226000+00:00"
+        }
+    ]
+}

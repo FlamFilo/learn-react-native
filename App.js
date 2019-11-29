@@ -1,4 +1,4 @@
 import React from 'react'
-import Exo2 from './src/components/Exo2/Exo2'
+import Exo4 from './src/Exo4/Exo4'
 
-export default App = () => <Exo2/>
+export default App = () => <Exo4/>
